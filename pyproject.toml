@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vol_forecast"
+version = "0.1.0"
+description = "Equity volatility forecasting with AR and GARCH"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Your Name"}]
+license = {text = "MIT"}
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "statsmodels>=0.14",
+    "arch>=6.3",
+    "yfinance>=0.2.40"
+]
+
+[project.urls]
+homepage = "https://example.com"
+repository = "https://example.com"
